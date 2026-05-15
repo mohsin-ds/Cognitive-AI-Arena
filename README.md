@@ -125,7 +125,7 @@ Cognitive-AI-Arena/
 
 ## 👥 Contributors
 
-* **Muhammad Mohsin**: Lead Full-Stack Developer & AI Architect
-* **Ahmed Dawood**: Systems Integration & Collaborative Developer
+* **Muhammad Mohsin**
+* **Ahmed Dawood**
 
 ---
