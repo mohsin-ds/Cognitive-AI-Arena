@@ -1,13 +1,6 @@
 # Cognitive AI Arena: Algorithm Visualization & Benchmarking Dashboard
 
-This repository contains the **Cognitive AI Arena**, a high-performance platform designed for the real-time visualization and benchmarking of advanced Artificial Intelligence paradigms. The system provides a unified interface to analyze search efficiency, optimization convergence, adversarial logic, and predictive performance modeling.
-
----
-
-## 👥 Contributors
-
-* **Muhammad Mohsin**: Lead Full-Stack Developer & AI Architect.
-* **Ahmed Dawood**: Systems Integration & Collaborative Developer.
+The **Cognitive AI Arena** is a high-performance platform designed for the real-time visualization and benchmarking of advanced Artificial Intelligence paradigms. The system provides a unified interface to analyze search efficiency, optimization convergence, adversarial logic, and predictive performance modeling.
 
 ---
 
@@ -127,3 +120,12 @@ Cognitive-AI-Arena/
 └── README.md
 
 ```
+
+---
+
+## 👥 Contributors
+
+* **Muhammad Mohsin**: Lead Full-Stack Developer & AI Architect
+* **Ahmed Dawood**: Systems Integration & Collaborative Developer
+
+---
