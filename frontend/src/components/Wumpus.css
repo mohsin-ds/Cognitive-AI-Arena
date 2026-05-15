@@ -1,0 +1,112 @@
+.wumpus-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.w-cell {
+    aspect-ratio: 1 / 1;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.2s;
+    background-color: #fff;
+}
+
+.clickable {
+    cursor: pointer !important;
+}
+
+.clickable:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+    transform: scale(1.02);
+}
+
+.mission-hidden {
+    background-color: #212529;
+}
+
+.mission-visited {
+    background-color: #ffffff;
+}
+
+.logic-pill {
+    font-size: 8px;
+    font-weight: 900;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.safe {
+    background-color: #198754;
+}
+
+.possible_pit {
+    background-color: #fd7e14;
+}
+
+.possible_wumpus {
+    background-color: #dc3545;
+}
+
+.danger_both {
+    background-color: #6f42c1;
+}
+
+.agent-entity {
+    font-size: 2rem;
+}
+
+.cell-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.percepts-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.small-text {
+    font-size: 9px;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.start-label {
+    font-size: 9px;
+    font-weight: bold;
+    color: #198754;
+    position: absolute;
+    bottom: 5px;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-pulse {
+    animation: pulse-animation 2s infinite;
+}

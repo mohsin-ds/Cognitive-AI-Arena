@@ -1,0 +1,81 @@
+.graph-canvas {
+    width: 100%;
+    height: 500px;
+    background-color: #fcfcfc;
+    cursor: crosshair;
+    user-select: none;
+    border-radius: 8px;
+}
+
+.graph-edge {
+    stroke: #dee2e6;
+    stroke-width: 4px;
+    transition: stroke 0.3s, stroke-width 0.3s;
+}
+
+.graph-edge-path {
+    stroke: #ffc107;
+    stroke-width: 6px;
+}
+
+.graph-node {
+    fill: white;
+    stroke: #adb5bd;
+    stroke-width: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.graph-node-start {
+    fill: #198754;
+    stroke: #146c43;
+}
+
+.graph-node-goal {
+    fill: #dc3545;
+    stroke: #b02a37;
+}
+
+.graph-node-selected {
+    stroke: #0d6efd;
+    stroke-width: 5px;
+    stroke-dasharray: 4;
+    animation: spin 4s linear infinite;
+}
+
+.graph-node-visited {
+    fill: rgba(13, 202, 240, 0.2);
+    stroke: #0dcaf0;
+}
+
+.graph-node-path {
+    fill: #ffc107;
+    stroke: #d39e00;
+    animation: popNode 0.3s ease-out forwards;
+}
+
+@keyframes spin {
+    100% {
+        stroke-dashoffset: 24;
+    }
+}
+
+@keyframes popNode {
+    0% {
+        r: 16;
+    }
+
+    50% {
+        r: 20;
+    }
+
+    100% {
+        r: 16;
+    }
+}
+
+@media (max-width: 1200px) {
+    .graph-canvas {
+        height: 400px;
+    }
+}

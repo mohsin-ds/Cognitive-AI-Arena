@@ -1,0 +1,27 @@
+.bg-success-light {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.bg-danger-light {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #6610f2;
+}
+
+.form-range::-moz-range-thumb {
+    background: #6610f2;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .card-body {
+        padding: 1rem;
+    }
+}
